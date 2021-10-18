@@ -1,0 +1,66 @@
+[
+    {
+      "_id": "614f85536c03cdeb553dcbc5",
+      "index": 0,
+      "name": "Diagnostics",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQioRlCPTxk3hd5TzJKGU-7NHv_XD18utaR_Q&usqp=CAU",
+      "discriptiion": "Diagnostics. Diagnostics is an international, peer-reviewed, open access journal on medical diagnosis published monthly online by MDPI.Diagnostics. Diagnostics is an international, peer-reviewed, open access journal on medical diagnosis published monthly online by MDPI.",
+      "icon": "https://ibb.co/JqtLtqJ"
+    },
+    {
+      "_id": "614f8553f26a3146ed59c53a",
+      "index": 1,
+      "name": "Cardiology",
+      "picture": "https://media.istockphoto.com/photos/heart-shows-a-medical-worker-picture-id1007977032?b=1&k=20&m=1007977032&s=170667a&w=0&h=CkENpaFJmVrFPs6srYJX36EVOriJ9v1iZlvIeXSKegA=",
+      "discriptiion": "Cardiology is a medical specialty and a branch of internal medicine concerned with disorders of the heart. It deals with the diagnosis and treatment of such conditions as congenital heart defects, coronary artery disease, electrophysiology, heart failure and valvular heart disease.",
+      "icon": "https://ibb.co/ZYJCjD6"
+    },
+    {
+      "_id": "614f8553f90b362b1944ddcc",
+      "index": 2,
+      "name": "Dental",
+      "picture": "https://media.istockphoto.com/photos/attractive-young-caucasian-woman-talking-to-her-dentist-picture-id1284250981?b=1&k=20&m=1284250981&s=170667a&w=0&h=GfqUY6U_CRuyUkup0PTDgFtAkXOemZQtLI2qAyBsLMc=",
+      "discriptiion": "Fluoride is important to dental health because it helps prevent tooth decay by making your tooth enamel more resistant to acid attacks from plaque bacteria",
+      "icon": "https://ibb.co/Cw6TLtc"
+    },
+    {
+      "_id": "614f85532c6066553a79aaa7",
+      "index": 3,
+      "name": "Ophthalmology",
+      "picture": "https://media.istockphoto.com/photos/eye-diseases-research-picture-id1264818703?b=1&k=20&m=1264818703&s=170667a&w=0&h=AmJxND8KvA7-H2q3Q9OzWwog4AvA61kaaufPWAX3JJs=",
+      "discriptiion": "Ophthalmology is a branch of medicine and surgery that deals with the diagnosis and treatment of disorders of the eye. An ophthalmologist is a physician who specializes in ophthalmology.",
+      "icon": "https://ibb.co/yNTS7vS"
+    },
+    {
+      "_id": "614f8553e52faa97dc22092b",
+      "index": 4,
+      "name": "Neurology",
+      "picture": "https://media.istockphoto.com/photos/futuristic-laboratory-equipment-brainwave-scanning-research-on-picture-id1248549012?b=1&k=20&m=1248549012&s=170667a&w=0&h=mUgJnRiqnJuKYUEVGt6VsbQYF5-QZ1PKPg6CM16GPhQ=",
+      "discriptiion": "Neurology is the branch of medicine concerned with the study and treatment of disorders of the nervous system. The nervous system is a complex, sophisticated system that regulates and coordinates body activities.",
+      "icon": "https://ibb.co/Gn8Z3WS"
+    },
+    {
+      "_id": "614f855399263992295df29e",
+      "index": 5,
+      "Course": "Orthopedics",
+      "picture": "https://media.istockphoto.com/photos/mid-section-of-man-suffering-with-knee-pain-picture-id804154084?b=1&k=20&m=804154084&s=170667a&w=0&h=Ff2PzMSLrVvF56qwhCVUo2mPvf5UppKHBKPqrPwcyk0=",
+      "discriptiion": "Orthopedics is a medical specialty that focuses on the diagnosis, correction, prevention, and treatment of patients with skeletal deformities - disorders of the bones, joints, muscles, ligaments, tendons, nerves and skin.",
+      "icon": "https://ibb.co/3y9Z32J"
+    },
+    {
+      "_id": "614f8553871f859c365bae3c",
+      "index": 6,
+      "name": "ENT Department",
+      "picture": "https://media.istockphoto.com/photos/mature-patient-with-hearing-problem-visiting-doctor-otolaryngologist-picture-id1266812260?b=1&k=20&m=1266812260&s=170667a&w=0&h=rWNPhBzw4AE_o6VJUibVLYTe4X-wpLY2jaO1lml_RZs=",
+      "discriptiion": "Otolaryngology is a medical specialty that treats conditions of the ears, nose, and throat. Specialists in this field have training in surgery as well as medicine.",
+      "icon": "https://ibb.co/Cts2hfT"
+    },
+    {
+      "_id": "614f855346b0edf1b78a6543",
+      "index": 7,
+      "name": "Cancer Department",
+      "picture": "https://images.unsplash.com/photo-1579154491915-611e891d3a5b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FuY2VyJTIwZGVwYXJ0bWVudHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "discriptiion": "The prostate is a walnut-sized gland in men that is part of the reproductive system. Prostate is the most common cancer and the second leading cause of cancer death in men. Be Informed. Free PSA Testing. Prostate Cancer Awareness.",
+      "icon": "https://ibb.co/vvy56dV"
+    }
+  ]
