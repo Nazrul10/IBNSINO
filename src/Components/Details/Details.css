@@ -1,0 +1,27 @@
+.detalis-container{
+    background-color: #2f279f;
+    height: 40rem;
+}
+.details-img{
+    width: 27rem;
+    height: 27rem;
+    border-radius: 50%;
+    margin-left: 5rem;
+}
+.service-name{
+    color: #fff;
+    text-align: center;
+    padding-top: 30px;
+}
+.discrip{
+    font-size: 1.5rem;
+    margin-top: 5rem;
+}
+.dtls-btn{
+    background-color: rgb(255, 8, 160);
+    border: none;
+    border-radius: 8px;
+    padding: 5px 8px;
+    color: #fff;
+    border: 1px solid yellow;
+}

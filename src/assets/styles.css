@@ -1,28 +1,20 @@
 @import url("https://fonts.googleapis.com/css?family=Oswald:300,400|Baloo+Da+2:400,600&display=swap");
-
-html,
-body {
-  z-index: -1;
+.hero-section{
+  z-index:2;
   margin: 0px;
   padding: 0px;
   color: #fff;
-  height: 100%;
-  background:linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),url(../images/national-cancer-institute.jpg) no-repeat center / cover;
+  height: 100vh;
+  background:linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),url(../images/national-cancer-institute.jpg) no-repeat top center / cover;
   font-family: "Baloo Da 2", cursive;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 #root {
   display: flex;
   flex-direction: column;
   justify-content: center;
   height: 100%;
-}
-
-.App a {
-  color: #828ed4;
-  transition: 0.2s all ease-in-out;
-}
-.App a:hover {
-  opacity: 0.75;
 }
 
 .App {
@@ -33,29 +25,15 @@ body {
   animation: app-enter-anim 0.1s ease-out;
 }
 .App-text {
-  opacity: 1;
-  transition: 0.1s all ease-in-out;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position:absolute;
 }
-.App-particles__container {
-  overflow: hidden;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  bottom: 0px;
-  right: 0px;
-  z-index: 0;
-}
-.App-particles__container canvas {
-  transition: 0.2s all ease-in-out;
-  z-index: 0;
-  height: 100%;
-  width: 100%;
-}
-
 .App-text__title {
   margin: 0px;
-  font-weight: 400;
-  font-size: 3.25rem;
+  font-weight: 900;
+  font-size: 30px;
   letter-spacing: 0.5rem;
   font-family: "Oswald", sans-serif;
 }
@@ -65,7 +43,9 @@ body {
   font-weight: 400;
   font-size: 1.2rem;
 }
-
+.btn-book{
+  margin-top: 1rem;
+}
 @keyframes app-enter-anim {
   from {
     opacity: 0.8;
