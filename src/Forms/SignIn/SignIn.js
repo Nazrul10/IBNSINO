@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { useHistory, useLocation } from 'react-router';
 import { Link } from 'react-router-dom';
+import Footer from '../../Components/Shared/Footer/Footer';
+import Header from '../../Components/Shared/Header/Header';
 import useAuth from '../../Hooks/useAuth';
 import './SignIn.css'
 const SignIn = () => {
@@ -37,6 +39,7 @@ const SignIn = () => {
     }
     return (
         <div>
+          <Header></Header>
             <div className="login-container">
             <div className="container">
   <section id="content">
@@ -61,6 +64,7 @@ const SignIn = () => {
   </section>
 </div>
         </div>
+        <Footer></Footer>
         </div>
     );
 };

@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { useHistory } from 'react-router';
 import { Link } from 'react-router-dom';
+import Footer from '../../Components/Shared/Footer/Footer';
+import Header from '../../Components/Shared/Header/Header';
 import useAuth from '../../Hooks/useAuth';
 import './Register.css'
 const Register = () => {
@@ -36,6 +38,7 @@ const Register = () => {
     }
     return (
         <div>
+            <Header></Header>
             <div id="login-box">
   <div class="left">
     <h1>Sign up</h1>
@@ -60,6 +63,7 @@ const Register = () => {
     <span class="loginwith">Sign in with<br />social network</span>
   </div>
 </div>
+<Footer></Footer>
         </div>
     );
 };

@@ -1,3 +1,4 @@
+//fontWasome
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
