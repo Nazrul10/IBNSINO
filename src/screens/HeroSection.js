@@ -18,7 +18,7 @@ const HeroSection = () => {
           <h2 className="App-text__body">
           30% discount on full examination
           </h2>
-          <Link to="https://google.com">
+          <Link to="/contact">
           <Button className="btn-book">BOOK A CONSULTATION</Button>
           </Link>
         </div>

@@ -21,10 +21,10 @@ const Register = () => {
         .then((result) => {
             setuserName(users)
             setUsers(result.user)
-            history.push('/home')
            })
-        e.preventDefault();
+           history.push('/home')
     }
+    //google submit
     const handleSigninWithGoogle = () =>{
         signinWithGoogle()
         .then( result => {

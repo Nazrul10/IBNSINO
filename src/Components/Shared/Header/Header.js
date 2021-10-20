@@ -6,7 +6,6 @@ import img from '../../../images/heart-beat.png'
 import './Header.css'
 const Header = () => {
   const {logOut, users} = useAuth()
-  console.log(users)
     return (
         <Navbar className="zIndex" collapseOnSelect expand="lg" bg="dark" variant="dark">
   <Container>

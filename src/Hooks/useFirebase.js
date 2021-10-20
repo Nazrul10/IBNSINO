@@ -17,14 +17,12 @@ const signinWithGoogle = () =>{
 const createEmailPass = (email, pass) =>{
   setLoading(true);
   return createUserWithEmailAndPassword(auth, email, pass)
-  
   .finally(()=> setLoading(false))
 }
 //login email pass
 const loginEmailPass =(email, password)=>{
   setLoading(true)
   return signInWithEmailAndPassword(auth, email, password)
-
   .finally(()=> setLoading(false))
 }
 //log Out
@@ -39,6 +37,7 @@ const logOut = () =>{
 const setuserName = () =>{
   updateProfile(auth.currentUser, {displayName: name})
   .then(() => {})
+  window.location.reload();
 }
 //
 useEffect(() =>{

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button, Card } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 const Allservice = (props) => {
     const {name, picture, icon, discriptiion} = props.allservice
@@ -11,7 +12,9 @@ const Allservice = (props) => {
     <Card.Text>{discriptiion}</Card.Text>
   </Card.Body>
   <div className="p-3">
+  <Link to="/contact">
   <Button>BOOK A CONSULTATION</Button>
+  </Link>
   </div>
 </Card>
     );

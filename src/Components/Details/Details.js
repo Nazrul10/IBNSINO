@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
+import { Link } from 'react-router-dom';
 import Header from '../Shared/Header/Header';
 import './Details.css'
 const Details = () => {
@@ -25,7 +26,9 @@ const Details = () => {
                 <p className="text-light discrip">
                 {service?.discriptiion}
                 </p>
-                <button className="dtls-btn">BOOK A CONSULTATION</button>
+               <Link to="/contact">
+               <button className="dtls-btn">BOOK A CONSULTATION</button>
+               </Link>
             </div>
             </div>
             </div>
